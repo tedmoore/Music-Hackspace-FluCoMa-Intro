@@ -192,6 +192,7 @@
 						"style" : "",
 						"subpatcher_template" : "",
 						"assistshowspatchername" : 0,
+						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-15",
@@ -199,7 +200,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 167.083341181278229, 215.833340138196945, 161.0, 33.0 ],
+									"patching_rect" : [ 163.750007748603821, 159.500005125999451, 161.0, 33.0 ],
 									"text" : "find \"transients\"\n(clicks or sharp attacks)",
 									"textjustification" : 1
 								}
@@ -212,7 +213,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 167.083341181278229, 157.500005066394806, 161.0, 47.0 ],
+									"patching_rect" : [ 167.583341181278229, 229.166673868894577, 161.0, 47.0 ],
 									"text" : "provide gate information\n(0 when below amp threshold, 1 when above)",
 									"textjustification" : 1
 								}
@@ -273,7 +274,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "signal", "" ],
-									"patching_rect" : [ 338.000010073184967, 228.333340138196945, 111.0, 22.0 ],
+									"patching_rect" : [ 334.666676640510559, 172.000005125999451, 111.0, 22.0 ],
 									"text" : "fluid.transientslice~"
 								}
 
@@ -285,7 +286,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "signal", "" ],
-									"patching_rect" : [ 338.000010073184967, 170.000005066394806, 88.0, 22.0 ],
+									"patching_rect" : [ 338.500010073184967, 241.666673868894577, 88.0, 22.0 ],
 									"text" : "fluid.ampgate~"
 								}
 
@@ -309,7 +310,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 24.750003725290298, 228.333340138196945, 128.0, 22.0 ],
+									"patching_rect" : [ 21.416670292615891, 172.000005125999451, 128.0, 22.0 ],
 									"text" : "fluid.buftransientslice~"
 								}
 
@@ -321,7 +322,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 48.750003725290298, 170.000005066394806, 104.0, 22.0 ],
+									"patching_rect" : [ 49.250003725290298, 241.666673868894577, 104.0, 22.0 ],
 									"text" : "fluid.bufampgate~"
 								}
 

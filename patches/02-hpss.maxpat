@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 87.0, 1290.0, 929.0 ],
+		"rect" : [ 34.0, 87.0, 1612.0, 929.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -39,6 +39,66 @@
 		"subpatcher_template" : "",
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
+				"box" : 				{
+					"basictuning" : 440,
+					"clipheight" : 46.763157725334167,
+					"data" : 					{
+						"clips" : [ 							{
+								"absolutepath" : "Nicol-LoopE-M.wav",
+								"filename" : "Nicol-LoopE-M.wav",
+								"filekind" : "audiofile",
+								"id" : "u006004690",
+								"loop" : 0,
+								"content_state" : 								{
+
+								}
+
+							}
+, 							{
+								"absolutepath" : "Tremblay-AaS-SynthTwoVoices-M.wav",
+								"filename" : "Tremblay-AaS-SynthTwoVoices-M.wav",
+								"filekind" : "audiofile",
+								"id" : "u416004693",
+								"loop" : 0,
+								"content_state" : 								{
+
+								}
+
+							}
+ ]
+					}
+,
+					"followglobaltempo" : 0,
+					"formantcorrection" : 0,
+					"id" : "obj-10",
+					"maxclass" : "playlist~",
+					"mode" : "basic",
+					"numinlets" : 1,
+					"numoutlets" : 5,
+					"originallength" : [ 0.0, "ticks" ],
+					"originaltempo" : 120.0,
+					"outlettype" : [ "signal", "signal", "signal", "", "dictionary" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 39.666665732860565, 82.578951120376587, 602.631574630737305, 95.526315450668335 ],
+					"pitchcorrection" : 0,
+					"quality" : "basic",
+					"timestretch" : [ 0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-5",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 412.491219639778137, 191.499446034431458, 218.0, 22.0 ],
+					"text" : "read Tremblay-AaS-SynthTwoVoices-M"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-46",
 					"maxclass" : "newobj",
@@ -83,8 +143,46 @@
 						"style" : "",
 						"subpatcher_template" : "",
 						"assistshowspatchername" : 0,
-						"visible" : 1,
 						"boxes" : [ 							{
+								"box" : 								{
+									"id" : "obj-15",
+									"linecount" : 3,
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 150.9687579870224, 263.2291639149189, 216.796875, 47.0 ],
+									"text" : "machine learning algorithm that learns what kinds of sound objects are in a buffer (and extract them)",
+									"textjustification" : 1
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-9",
+									"linecount" : 2,
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 150.9687579870224, 197.166664779186249, 216.796875, 33.0 ],
+									"text" : "extract the \"transients\" from a sound (clicks, pop, or sharp attacks)",
+									"textjustification" : 1
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-8",
+									"linecount" : 2,
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 150.9687579870224, 127.333332180976868, 216.796875, 33.0 ],
+									"text" : "model a sound as a combination of sine tones",
+									"textjustification" : 1
+								}
+
+							}
+, 							{
 								"box" : 								{
 									"id" : "obj-16",
 									"maxclass" : "newobj",
@@ -128,8 +226,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 150.9687579870224, 56.453125, 216.796875, 47.0 ],
-									"presentation_linecount" : 4,
-									"text" : "separate the \"harmonic\" from the \"percussive\" part of a sound (and maybe also \"residual\")",
+									"text" : "separate the \"harmonic\" from the \"percussive\" part of a sound (and sometimes also a \"residual\")",
 									"textjustification" : 1
 								}
 
@@ -163,7 +260,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 4,
 									"outlettype" : [ "", "", "", "" ],
-									"patching_rect" : [ 45.833331823348999, 267.1354139149189, 78.0, 22.0 ],
+									"patching_rect" : [ 45.833331823348999, 275.7291639149189, 78.0, 22.0 ],
 									"text" : "fluid.bufnmf~"
 								}
 
@@ -244,7 +341,7 @@
 						"lines" : [  ]
 					}
 ,
-					"patching_rect" : [ 636.000018954277039, 195.44681441783905, 93.0, 22.0 ],
+					"patching_rect" : [ 666.921071290969849, 194.788919687271118, 93.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
@@ -262,7 +359,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 636.000018954277039, 164.666671574115753, 150.0, 20.0 ],
+					"patching_rect" : [ 666.921071290969849, 164.008776843547821, 150.0, 20.0 ],
 					"text" : "6. more decomposition"
 				}
 
@@ -273,7 +370,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 636.000018954277039, 90.666669368743896, 150.0, 20.0 ],
+					"patching_rect" : [ 666.921071290969849, 90.008774638175964, 150.0, 20.0 ],
 					"text" : "5. hpss in real-time"
 				}
 
@@ -347,7 +444,7 @@
 									"parameter_enable" : 0,
 									"patching_rect" : [ 250.000007450580597, 160.000004768371582, 18.0, 66.0 ],
 									"size" : 4,
-									"value" : 2
+									"value" : 0
 								}
 
 							}
@@ -533,7 +630,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 636.000018954277039, 120.000003576278687, 95.0, 22.0 ],
+					"patching_rect" : [ 666.921071290969849, 119.342108845710754, 95.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
@@ -552,7 +649,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 440.833323895931244, 442.000013172626495, 184.000001013278961, 20.0 ],
-					"text" : "4. play harmonic component"
+					"text" : "4. play percussive component"
 				}
 
 			}
@@ -723,7 +820,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 202.017728507518768, 200.492912709712982, 195.0, 22.0 ],
+					"patching_rect" : [ 202.017728507518768, 191.499446034431458, 195.0, 22.0 ],
 					"text" : "loadmess read Nicol-LoopE-M.wav"
 				}
 
@@ -735,7 +832,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "float", "bang" ],
-					"patching_rect" : [ 202.017728507518768, 231.326247334480286, 103.0, 22.0 ],
+					"patching_rect" : [ 202.017728507518768, 249.089405059814453, 103.0, 22.0 ],
 					"text" : "buffer~ drum-loop"
 				}
 
@@ -788,7 +885,7 @@
 					"orientation" : 1,
 					"outlettype" : [ "signal", "signal", "", "float", "list" ],
 					"parameter_enable" : 1,
-					"patching_rect" : [ 39.666665732860565, 195.44681441783905, 136.0, 47.0 ],
+					"patching_rect" : [ 39.666665732860565, 191.499446034431458, 136.0, 47.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_longname" : "live.gain~",
@@ -812,44 +909,7 @@
 					"maxclass" : "ezdac~",
 					"numinlets" : 2,
 					"numoutlets" : 0,
-					"patching_rect" : [ 39.666665732860565, 260.113483011722565, 45.0, 45.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"basictuning" : 440,
-					"clipheight" : 100.999999046325684,
-					"data" : 					{
-						"clips" : [ 							{
-								"absolutepath" : "Nicol-LoopE-M.wav",
-								"filename" : "Nicol-LoopE-M.wav",
-								"filekind" : "audiofile",
-								"id" : "u214000784",
-								"loop" : 0,
-								"content_state" : 								{
-
-								}
-
-							}
- ]
-					}
-,
-					"followglobaltempo" : 0,
-					"formantcorrection" : 0,
-					"id" : "obj-3",
-					"maxclass" : "playlist~",
-					"mode" : "basic",
-					"numinlets" : 1,
-					"numoutlets" : 5,
-					"originallength" : [ 0.0, "ticks" ],
-					"originaltempo" : 120.0,
-					"outlettype" : [ "signal", "signal", "signal", "", "dictionary" ],
-					"parameter_enable" : 0,
-					"patching_rect" : [ 39.666665732860565, 79.446809411048889, 534.666666746139526, 101.999999046325684 ],
-					"pitchcorrection" : 0,
-					"quality" : "basic",
-					"timestretch" : [ 0 ]
+					"patching_rect" : [ 39.666665732860565, 256.166114628314972, 45.0, 45.0 ]
 				}
 
 			}
@@ -867,6 +927,13 @@
 					"destination" : [ "obj-16", 0 ],
 					"midpoints" : [ 107.833332399527222, 486.0, 279.500008046627045, 486.0 ],
 					"source" : [ "obj-1", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-7", 0 ],
+					"source" : [ "obj-10", 0 ]
 				}
 
 			}
@@ -902,13 +969,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-7", 0 ],
-					"source" : [ "obj-3", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-26", 0 ],
 					"midpoints" : [ 450.333323895931244, 320.333333492279053, 682.666674315929413, 320.333333492279053, 682.666674315929413, 323.000001311302185, 683.666664183139801, 323.000001311302185 ],
 					"source" : [ "obj-33", 0 ]
@@ -927,6 +987,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-1", 0 ],
 					"source" : [ "obj-4", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-12", 0 ],
+					"source" : [ "obj-5", 0 ]
 				}
 
 			}
@@ -965,6 +1032,13 @@
 ,
 		"dependency_cache" : [ 			{
 				"name" : "Nicol-LoopE-M.wav",
+				"bootpath" : "~/Documents/Max 8/Packages/FluidCorpusManipulation/media",
+				"patcherrelativepath" : "../../../Max 8/Packages/FluidCorpusManipulation/media",
+				"type" : "WAVE",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "Tremblay-AaS-SynthTwoVoices-M.wav",
 				"bootpath" : "~/Documents/Max 8/Packages/FluidCorpusManipulation/media",
 				"patcherrelativepath" : "../../../Max 8/Packages/FluidCorpusManipulation/media",
 				"type" : "WAVE",
