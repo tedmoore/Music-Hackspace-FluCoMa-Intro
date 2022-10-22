@@ -887,13 +887,13 @@
 			}
 , 			{
 				"box" : 				{
-					"fontface" : 1,
-					"fontsize" : 30.0,
+					"fontface" : 0,
+					"fontsize" : 12.0,
 					"id" : "obj-27",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 39.666665732860565, 18.666667222976685, 570.666661977767944, 40.0 ],
+					"patching_rect" : [ 42.00000125169754, 26.666667222976685, 222.0, 20.0 ],
 					"text" : "FluCoMa Slicers (Temporal Separation)"
 				}
 

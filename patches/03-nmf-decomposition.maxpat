@@ -80,7 +80,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 366.666677594184875, 490.00001460313797, 69.999997615814209, 20.0 ],
-					"presentation_linecount" : 2,
 					"text" : "activations:"
 				}
 
@@ -283,12 +282,12 @@
 			}
 , 			{
 				"box" : 				{
-					"fontsize" : 18.0,
+					"fontsize" : 12.0,
 					"id" : "obj-14",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 32.00000011920929, 23.333333373069763, 220.0, 27.0 ],
+					"patching_rect" : [ 32.00000011920929, 23.333333373069763, 151.0, 20.0 ],
 					"text" : "The mono drum loop:"
 				}
 

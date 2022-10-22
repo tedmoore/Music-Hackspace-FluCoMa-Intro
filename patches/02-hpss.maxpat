@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 87.0, 1612.0, 929.0 ],
+		"rect" : [ 34.0, 87.0, 1318.0, 929.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -864,13 +864,13 @@
 			}
 , 			{
 				"box" : 				{
-					"fontface" : 1,
-					"fontsize" : 30.0,
+					"fontface" : 0,
+					"fontsize" : 12.0,
 					"id" : "obj-27",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 39.666665732860565, 18.666667222976685, 675.999998450279236, 40.0 ],
+					"patching_rect" : [ 42.00000125169754, 25.666667222976685, 260.0, 20.0 ],
 					"text" : "FluCoMa Decomposition (Spectral Separation)"
 				}
 
