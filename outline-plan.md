@@ -1,5 +1,6 @@
 ---
-
+geometry: "left=1in,right=1in,top=1in,bottom=1in"
+colorlinks: true
 ---
 
 # Using Machine Learning Creatively via FluCoMa in Max
@@ -78,16 +79,16 @@ _12:30-12:42_
 
 _12:42-12:55_
 
-* Musical Example: check out the [article](https://learn.flucoma.org/explore/eldridge-kiefer/) on [Alice Eldrige](https://profiles.sussex.ac.uk/p127749-alice-eldridge) and [Chris Kiefer](https://profiles.sussex.ac.uk/p208667-chris-kiefer)'s [_FeedbackFeedforward_](https://www.youtube.com/watch?v=c03_84_P7PQ)
+* Musical Example: check out the [article](https://learn.flucoma.org/explore/eldridge-kiefer/) on [Alice Eldridge](https://profiles.sussex.ac.uk/p127749-alice-eldridge) and [Chris Kiefer](https://profiles.sussex.ac.uk/p208667-chris-kiefer)'s [_FeedbackFeedforward_](https://www.youtube.com/watch?v=c03_84_P7PQ)
 
 ## Follow-Ons
 
 _12:55-1:00_
 
-* learn.flucoma.org
+* [learn.flucoma.org](https://learn.flucoma.org/)
     - Reference
     - Learn Overviews
     - Explore (Example Projects...and patches!)
-* https://www.youtube.com/c/FluidCorpusManipulation (tutorials!)
-* More about Machine Listening with Alex Harker (https://www.youtube.com/watch?v=Sh7LvH39dsY)
-* ted@tedmooremusic.com
+* [FluCoMa YouTube Channel](https://www.youtube.com/c/FluidCorpusManipulation) (performances and tutorials!)
+* More about Machine Listening with Alex Harker: [_Meaningless Numbers? Using Audio Descriptors in a Musical Manner_](https://www.youtube.com/watch?v=Sh7LvH39dsY)
+* Get in touch with me! [ted@tedmooremusic.com](mailto:ted@tedmooremusic.com)
