@@ -9,11 +9,6 @@ _11am Eastern_
 _11:00-11:15_
 
 * What is FluCoMa?
-    - The team
-    - Machine Listening (Audio Analysis)
-    - Audio decomposition (temporal and spectral)
-    - Data Science
-    - Machine Learning
 * Configure and Install FluCoMa in Max
 * Common Workflows
     - slice / decompose audio
@@ -26,23 +21,30 @@ _11:00-11:15_
 
 ## Patches
 
-### Patch 1: Slicers (Temporal Separation)
+### Slicers (Temporal Separation)
 
 _11:15-11:25_
 
-* ampslice
+* ampslice (patch #01)
+    - slide
 * noveltyslice
+    - Lauren's Improvisation is an example
 
-### Patch 2: Decomposition (Spectral Separation)
+### Decomposition (Spectral Separation)
 
 _11:25-11:45_
 
-* hpss
+* hpss (patch #02)
+    - slides
 * sines
 * transients
-* Decomposition with NMF
 
-### Patch 3: Analyzing & Plotting Audio Slices
+* Decomposition with NMF (patch #03)
+    - slides
+    - Olivier's Composition is an example
+    - articles on learn.flucoma.org
+
+### Analyzing & Plotting Audio Slices
 
 _11:45-12:00_
 
@@ -51,7 +53,9 @@ _11:45-12:00_
 * bufstats
 * fluid.plotter
 
-### Patch 4: Dimensionality Reduction
+* slides
+
+### Dimensionality Reduction
 
 _12:00-12:15_
 
@@ -61,20 +65,30 @@ _12:00-12:15_
 
 * The Hinges
 
-### Patch 5: Real-Time Concatenative Synthesis
+* Ted is an example
+
+### Real-Time Concatenative Synthesis
 
 _12:15-12:30_
 
 * KNN
 * Scaling Data
 
-### Patch 6: Neural Network Classifier
+* Rod is an example
+
+### Neural Network Classifier
 
 _12:30-12:42_
 
-### Patch 7: Neural Networks Regressor
+* Alex is an example
+
+### Neural Networks Regressor for synth control
 
 _12:42-12:55_
+
+* Alice Eldridge is an example
+
+### Neural Network Regressor for real-time prediction
 
 ## Follow-Ons
 
